@@ -60,7 +60,7 @@ class get_douban250(object):
                 if len(describe) != 0:
                     self.describe_list.append(describe[0])
                 else:
-                    describe = '无热评'
+                    describe = ''
                     self.describe_list.append(describe)
             # 图片地址
             img_urls = html.xpath('//*[@id="content"]/div/div[1]/ol/li/div/div[1]/a/img/@src')
